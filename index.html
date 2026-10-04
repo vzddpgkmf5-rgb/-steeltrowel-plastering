@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SteelTrowel Plastering – professional plastering services across South Wales. Skimming, plaster boarding, patch repairs and ceiling work. Get a free quote.">
+<title>SteelTrowel Plastering | South Wales</title>
+<style>
+:root{--dark:#151515;--dark2:#202020;--light:#f5f5f3;--white:#fff;--accent:#d8b36a;--muted:#b9b9b9}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--light);color:var(--dark);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{position:fixed;top:0;left:0;width:100%;z-index:20;background:rgba(21,21,21,.96);backdrop-filter:blur(8px);border-bottom:1px solid #333}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:900;letter-spacing:1px;color:#fff;font-size:20px}
+.logo span{color:var(--accent)}
+nav{display:flex;gap:26px;color:#ddd;font-size:14px;font-weight:700}
+nav a:hover{color:var(--accent)}
+.hero{min-height:92vh;padding-top:72px;background:linear-gradient(115deg,rgba(0,0,0,.88),rgba(0,0,0,.60)),url("images/hero.svg") center/cover;display:flex;align-items:center;color:#fff}
+.hero-content{max-width:720px;padding:70px 0}
+.eyebrow{text-transform:uppercase;letter-spacing:3px;color:var(--accent);font-weight:800;font-size:13px;margin-bottom:18px}
+h1{font-size:clamp(42px,7vw,78px);line-height:.98;margin-bottom:24px}
+.hero p{font-size:19px;color:#ddd;max-width:620px;margin-bottom:32px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 22px;border-radius:5px;font-weight:800;border:1px solid transparent}
+.btn-primary{background:var(--accent);color:#151515}
+.btn-primary:hover{filter:brightness(1.08)}
+.btn-outline{border-color:#aaa;color:#fff}
+.btn-outline:hover{border-color:#fff;background:#fff;color:#151515}
+.section{padding:88px 0}
+.section.dark{background:var(--dark);color:#fff}
+.section-head{max-width:700px;margin-bottom:42px}
+.section-head h2{font-size:clamp(30px,5vw,48px);line-height:1.05;margin-bottom:12px}
+.section-head p{color:#666}
+.dark .section-head p{color:#bbb}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;padding:28px;border-radius:8px;box-shadow:0 8px 30px rgba(0,0,0,.06)}
+.dark .card{background:#242424;box-shadow:none}
+.icon{font-size:30px;margin-bottom:15px}
+.card h3{margin-bottom:8px;font-size:20px}
+.card p{color:#666;font-size:15px}
+.dark .card p{color:#bbb}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+.about-image{min-height:420px;border-radius:10px;background:url("images/about.svg") center/cover;box-shadow:0 20px 50px rgba(0,0,0,.16)}
+.checks{list-style:none;margin-top:25px}
+.checks li{margin:12px 0;font-weight:700}
+.checks li:before{content:"✓";color:#a8833e;font-weight:900;margin-right:10px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.gallery img{width:100%;height:270px;object-fit:cover;border-radius:7px;background:#ddd}
+.quote{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:start}
+.contact-box{background:#242424;border-radius:10px;padding:32px;color:#fff}
+.contact-item{padding:17px 0;border-bottom:1px solid #3a3a3a}
+.contact-item:last-child{border-bottom:0}
+.contact-item small{display:block;color:#aaa;margin-bottom:4px}
+.contact-item a{font-size:20px;font-weight:800}
+form{background:#fff;padding:30px;border-radius:10px}
+label{display:block;font-size:13px;font-weight:800;margin:0 0 6px}
+input,textarea,select{width:100%;padding:13px;border:1px solid #ddd;border-radius:5px;margin-bottom:16px;font:inherit}
+textarea{min-height:130px;resize:vertical}
+footer{background:#101010;color:#aaa;padding:30px 0;text-align:center;font-size:13px}
+.mobile-cta{display:none}
+@media(max-width:800px){
+nav{display:none}.grid,.gallery{grid-template-columns:1fr 1fr}.about,.quote{grid-template-columns:1fr}.about-image{min-height:300px}
+.hero{min-height:82vh}.section{padding:65px 0}
+}
+@media(max-width:520px){
+.grid,.gallery{grid-template-columns:1fr}.gallery img{height:300px}.hero p{font-size:17px}.buttons .btn{width:100%;text-align:center}
+.mobile-cta{display:block;position:fixed;bottom:0;left:0;width:100%;z-index:30;background:var(--accent);color:#111;text-align:center;padding:13px;font-weight:900}
+body{padding-bottom:48px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo" href="#">STEELTROWEL <span>PLASTERING</span></a>
+    <nav>
+      <a href="#services">Services</a><a href="#about">About</a><a href="#gallery">Work</a><a href="#quote">Contact</a>
+    </nav>
+    <a class="btn btn-primary" href="#quote">Get a Quote</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-content">
+    <div class="eyebrow">Professional Plastering • South Wales</div>
+    <h1>Clean finishes.<br>Properly done.</h1>
+    <p>Reliable plastering for homes and properties across South Wales. From full-room skimming to patch repairs and ceilings, every job is finished with care.</p>
+    <div class="buttons">
+      <a class="btn btn-primary" href="#quote">Get a Free Quote</a>
+      <a class="btn btn-outline" href="#gallery">View My Work</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">What I do</div>
+      <h2>Plastering services</h2>
+      <p>Whether you're freshening up one room or carrying out a bigger renovation, I can help with the plastering from start to finish.</p>
+    </div>
+    <div class="grid">
+      <div class="card"><div class="icon">▰</div><h3>Skimming</h3><p>Smooth, clean plaster finishes for walls and ceilings, ready for decorating.</p></div>
+      <div class="card"><div class="icon">▤</div><h3>Plaster Boarding</h3><p>Plasterboard installation for new walls, ceilings and renovation work.</p></div>
+      <div class="card"><div class="icon">✦</div><h3>Patch Repairs</h3><p>Repairs to damaged, cracked or uneven areas without unnecessary work.</p></div>
+      <div class="card"><div class="icon">⌂</div><h3>Ceilings</h3><p>Ceiling overboarding and skimming to give tired ceilings a fresh finish.</p></div>
+      <div class="card"><div class="icon">◈</div><h3>Room Renovations</h3><p>Plastering work to help bring bedrooms, living rooms, bathrooms and other spaces back to life.</p></div>
+      <div class="card"><div class="icon">✓</div><h3>Finishing</h3><p>Careful preparation and finishing with a focus on a flat, smooth result.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section dark" id="about">
+  <div class="container about">
+    <div class="about-image"></div>
+    <div>
+      <div class="eyebrow">About SteelTrowel</div>
+      <h2>Quality work without the hassle.</h2>
+      <p style="color:#bbb;margin-top:15px">I provide reliable plastering services with a focus on clean workmanship, good preparation and leaving every job tidy.</p>
+      <ul class="checks">
+        <li>Free quotes</li>
+        <li>Domestic & small commercial work</li>
+        <li>Clean, professional finishes</li>
+        <li>Friendly and reliable service</li>
+        <li>South Wales coverage</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="gallery">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Recent work</div>
+      <h2>A look at the work</h2>
+      <p>Replace the photos below with your own before-and-after and finished-job photos.</p>
+    </div>
+    <div class="gallery">
+      <img src="images/work-1.svg" alt="SteelTrowel Plastering recent work">
+      <img src="images/work-2.svg" alt="SteelTrowel Plastering recent work">
+      <img src="images/work-3.svg" alt="SteelTrowel Plastering recent work">
+      <img src="images/work-4.svg" alt="SteelTrowel Plastering recent work">
+      <img src="images/work-5.svg" alt="SteelTrowel Plastering recent work">
+      <img src="images/work-6.svg" alt="SteelTrowel Plastering recent work">
+    </div>
+  </div>
+</section>
+
+<section class="section dark" id="quote">
+  <div class="container quote">
+    <div>
+      <div class="eyebrow">Get in touch</div>
+      <h2>Ready to get your job priced?</h2>
+      <p style="color:#bbb;margin-top:15px">Send over a few details or photos of the work and I'll get back to you about a quote.</p>
+      <div class="contact-box" style="margin-top:28px">
+        <div class="contact-item"><small>Phone</small><a href="tel:07709879160">07709 879160</a></div>
+        <div class="contact-item"><small>Facebook</small><a href="#">SteelTrowel Plastering</a></div>
+        <div class="contact-item"><small>Area</small><strong>South Wales</strong></div>
+      </div>
+    </div>
+    <form action="mailto:07709879160" method="post" enctype="text/plain">
+      <label for="name">Name</label><input id="name" name="Name" required>
+      <label for="phone">Phone number</label><input id="phone" name="Phone" type="tel" required>
+      <label for="service">What do you need doing?</label>
+      <select id="service" name="Service">
+        <option>Skimming</option><option>Plaster boarding</option><option>Patch repair</option><option>Ceiling work</option><option>Other</option>
+      </select>
+      <label for="message">Tell me about the job</label><textarea id="message" name="Message" placeholder="You can also mention the area and roughly how big the job is."></textarea>
+      <button class="btn btn-primary" type="submit" style="width:100%;cursor:pointer">Request a Quote</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">© 2026 SteelTrowel Plastering • South Wales</div>
+</footer>
+<a class="mobile-cta" href="tel:07709879160">CALL FOR A FREE QUOTE</a>
+</body>
+</html>
